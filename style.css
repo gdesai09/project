@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+    width:  500px;
+    height: 500px;
+    background-color:aqua;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.button{
+    position: relative;
+    top: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#add{
+    border-radius: 20px;
+
+}
+#delete{
+    border-radius: 20px;
+}
