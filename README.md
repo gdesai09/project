@@ -32,4 +32,4 @@ This project allows users to:
 - Edit task feature
 - Filter (Completed / Pending)
 - Dark mode
-- Animations
+- Animations 
