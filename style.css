@@ -1,9 +1,9 @@
 body{
-    background-color: aquamarine;
+    background: linear-gradient(to right, rgb(19, 20, 20) , rgb(42, 192, 192));
 }
 .container{
     width:  500px;
-    height: 500px;
+    height: 250px;
     background-color:aqua;
     margin-top: 50px;
     border: 2px solid black;
@@ -11,17 +11,45 @@ body{
 }
 .button{
     position: relative;
-    top: 450px;
+    top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
 }
-#add{
+#ADD{
     border-radius: 20px;
+    background-color: greenyellow;
 
 }
-#delete{
+#remove{
     border-radius: 20px;
+    background-color: red;
+}
+#ADD:hover{
+    background-color: white;
+    transition: 2ms;
+
+}
+#remove:hover{
+    background-color: white;
+    transition: 2ms;
+
+}
+#desc{
+    height: 100px;
+}
+.container{
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: black;
+    
+}
+.list{
+    position: absolute;
+    left: 500px;
+    top: 400px;
+    color: azure;
 }
